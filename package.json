@@ -1,0 +1,32 @@
+{
+  "name": "commerce-finance-math",
+  "version": "0.1.0",
+  "description": "Integer-minor-unit totals and blended ratios that preserve missing data",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuanthaidnc/commerce-finance-math.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "*.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "example": "node examples/demo.mjs",
+    "check:package": "node scripts/check-package.mjs"
+  }
+}

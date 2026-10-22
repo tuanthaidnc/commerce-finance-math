@@ -1,0 +1,20 @@
+name: Reproducible bug
+description: Report a reproducible library behavior error
+body:
+  - type: markdown
+    attributes:
+      value: Use synthetic examples only. Report sensitive vulnerabilities through private security reporting.
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Include library version, runtime version, complete synthetic input and options.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual dates
+      description: Explain how you checked the expected dates independently.
+    validations:
+      required: true
